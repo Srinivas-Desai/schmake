@@ -1,0 +1,3 @@
+Schmake is a lightweight portable replacement for make written in C. It is designed to not use the host OS shell and instead implements it's own command system. It overcomes many of the difficulties in making a flexible build system that's portable across different platforms and versions of make.
+
+One of it's best properties is being capable of being bundled with an application in the case that Schmake is not already installed. It has no dependencies other than libc and is written to be as portable as possible.
